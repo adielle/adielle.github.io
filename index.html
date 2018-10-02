@@ -312,6 +312,24 @@ div.animatebottom{
 	@keyframes animatebottom{
 	from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
 	}
+	
+div.animatezoom {
+	
+	animation:animatezoom 0.12s}
+	
+	@keyframes animatezoom{
+	from{transform:scale(0)} to{transform:scale(1)}
+	}	
+	
+div.animatetop{
+	
+	position:relative;
+	animation:animatetop 0.9s}
+	
+	
+	@keyframes animatetop{
+	from{top:-300px;opacity:0} to{top:0;opacity:1}}
+	}
 
 </style>
 
@@ -348,7 +366,7 @@ div.animatebottom{
 
 <table>
 <tr>
-<td> <div class = "animatebottom"> <h1 class = "toptext"> Let's <br> Time <br> Travel
+	<td> <div class = "animatebottom"> <h1 class = "toptext"> Let's <br> Time <br> Travel </div>
 
 <td><div class="slideshow-container">
 
@@ -400,20 +418,20 @@ Climb aboard our train and let's time travel!
 <br>
 <table>
 <tr>
-<td> <img class = "basseterre" src="BasseterreTour.png">  
-<td><p class = "tourinfopar"> This tour consists of a journey through the island's capital Basseterre. <br>It's durations is 1 hour. <br>Stops will be made along the way 
-for picture taking. <br>While we time travel through Basseterre<br> here is a list of the notable Sites we'll visit: 
+	<td><div class = "animatezoom"> <img class = "basseterre" src="BasseterreTour.png"> </div> 
+<td><div class="animatetop"><p class = "tourinfopar"> This tour consists of a journey through the island's capital Basseterre. <br>It's durations is 1 hour. <br>Stops will be made along the way 
+for picture taking. <br>While we time travel through Basseterre<br> here is a list of the notable Sites we'll visit: </div>
 <br>
 </tr>
 </table>
 <br><br>
-<ul>
+<ul><div class = "animatetop">
 <li> Pall Mall Square 
 <li> Berkley's Memorial
 <li> Hero's Park
 <li> Cenatuaf Monument
 <li> Governer General's Residence
-
+	</div>
 
 </ul>
 
